@@ -4,12 +4,12 @@
 
 
 .loader {
-    border-top-color: transparent;
-    animation: spin 1s linear infinite;
+  border-top-color: transparent;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
   }
-  
-  @keyframes spin {
-    to {
-      transform: rotate(360deg);
-    }
-  }
+}

@@ -25,7 +25,7 @@ const MovieDetailsPage = () => {
   }, [id]);
 
   return (
-    <div className="min-h-screen bg-gradient-to-r from-purple-600 to-indigo-600 text-white flex items-center justify-center">
+    <div className="min-h-screen bg-black text-white flex items-center justify-center">
       {loading ? (
         <div className="flex flex-col items-center">
           <div className="loader ease-linear rounded-full border-8 border-t-8 border-white h-32 w-32 mb-4"></div>

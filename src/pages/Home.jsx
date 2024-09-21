@@ -16,8 +16,8 @@ export default function Home() {
     };
 
     return (
-        <div className="min-h-screen bg-gradient-to-r from-purple-600 to-indigo-600 text-white">
-            <header className="bg-purple-800 p-4 shadow-md fixed w-full top-0 z-10">
+        <div className="min-h-screen bg-black text-white">
+            <header className="bg-gray-900 p-4 shadow-md fixed w-full top-0 z-10">
                 <h1 className="text-center font-sans font-medium text-3xl">Cinema Hunt</h1>
             </header>
             <div className="pt-20">
